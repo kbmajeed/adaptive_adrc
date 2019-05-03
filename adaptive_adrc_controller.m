@@ -1,4 +1,4 @@
-function [sys,x0,str,ts] = quadrotorlanding_eso_controller_extended2_p12(t,x,u,flag)
+function [sys,x0,str,ts] =adaptive_adrc_controller(t,x,u,flag)
 %quadrotorsfunc An example MATLAB file S-function for defining a continuous system.  
 %   Example MATLAB file S-function implementing continuous equations: 
 %      x' = f(x,u)
